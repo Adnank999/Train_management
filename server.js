@@ -36,4 +36,3 @@ app.use(cookieParser())
   app.use('/api/funds', authenticateToken,walletRoutes);
   app.use('/api/tickets',authenticateToken, ticketRoutes);
 
-  /* eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2NmFmODdjZGQ1OWZiODNiODJlMzg2YTEiLCJpYXQiOjE3MjI3ODgwMTN9.kUMAA1lGdf23zWUSzkYSSAH9dRMECCpwdo7-6_SoXtc */
